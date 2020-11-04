@@ -61,7 +61,7 @@ def findFace(img):
     print('faces')
     print(faces) # THIS is empty!?
 
-    #find all faces and draw rectangle
+    #find all faces and draw rectangle (image, position 1, position 2, colour, thickness)
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x + w, y + h), (255, 0, 0), 2)
         return img
