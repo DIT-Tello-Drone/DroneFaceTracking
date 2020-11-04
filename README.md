@@ -7,4 +7,5 @@ You will need following libraries:
 
 - djitellopy
 - opencv-python
+
 (all available from pip)
